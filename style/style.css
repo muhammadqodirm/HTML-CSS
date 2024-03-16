@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(250, 192, 83);
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(250, 192, 83);
+}
+
+.header__container .image {
+  width: 400px;
+  height: 522px;
+  margin-top: 218px;
+  margin-bottom: 218px;
+  background: white;
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 0px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 0px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 0px 7px rgba(0, 0, 0, 0.75);
+}
+
+.header__container .image button {
+  margin-top: 20px;
+  border: none;
+  background: rgb(250, 192, 83);
+  transition: all 0.5s;
+  border-radius: 4px;
+  color: black;
+  padding: 8px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+}
+
+.header__container .image button:hover {
+  background: rgb(228, 159, 29);
+}
+
+.header__container .image h2 {
+  margin-top: 15px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.header__container .image h1 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.header__container .image p {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header__container .image .image-one {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.header__container .image .image-one h2 {
+  padding-bottom: 15px;
+}

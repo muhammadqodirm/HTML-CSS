@@ -20,7 +20,7 @@ body {
   justify-content: center;
   background: rgb(250, 192, 83);
 }
-.header__container .image {
+.user-card {
   width: 400px;
   height: 522px;
   margin-top: 218px;
@@ -33,7 +33,7 @@ body {
   -webkit-box-shadow: 7px 7px 0 7px rgba(0, 0, 0, 0.75);
   box-shadow: 7px 7px 0 7px rgba(0, 0, 0, 0.75);
 }
-.header__container .image button {
+.user-card__button {
   margin-top: 20px;
   border: none;
   background: rgb(250, 192, 83);
@@ -47,29 +47,29 @@ body {
   font-style: normal;
   font-weight: 800;
 }
-.header__container .image button:hover {
+.user-card__button:hover {
   background: rgb(228, 159, 29);
 }
-.header__container .image h2 {
+.user-card__title2 {
   margin-top: 15px;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
 }
-.header__container .image h1 {
+.user-card__title1 {
   font-family: "Figtree";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
 }
-.header__container .image p {
+.user-card__lang {
   font-family: "Figtree";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
 }
-.header__container .image .image-one {
+.user-card__imageone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +80,6 @@ body {
   gap: 10px;
   cursor: pointer;
 }
-.header__container .image .image-one h2 {
+.user-card__title3 {
   padding-bottom: 15px;
 }
